@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="Imagens/favicon.png">
+  <title>Registre-se</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+  <header>
+    <nav class="navbar">
+      <div class="logo"><img src="Imagens/favicon.png" alt="Logo" width="35">Cadastro</div>
+      <button class="toggle-menu" aria-label="Abrir Menu">
+        ☰
+      </button>
+      <ul class="menu">
+        <li><a href="index2.html">Home</a></li>
+        <li><a href="index2.html">Sobre</a></li>
+        <li><a href="index2.html">Serviços</a></li>
+        <li><a href="index2.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+
+ 
+
+
+
+
+<br>
+
+
+  <div class="container">
+    <h1>Cadastro de Informações</h1>
+    <form id="cadastroForm">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="idade">Idade:</label>
+      <input type="number" id="idade" name="idade" required>
+      
+      <button type="submit" id="btnCadastrar">Cadastrar</button>
+    </form>
+    </div>
+    
+<br>
+
+    <div class="container">
+    <h2>Lista de Cadastros</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Email</th>
+          <th>Idade</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody id="tabelaCadastros"></tbody>
+    </table>
+    
+  </div>
+  
+
+<br><br>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>Sobre Nós</h3>
+        <p>Este projeto foi desenvolvido como um trabalho de Programação Web I. O objetivo é aplicar os ensinamentos das aulas.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Links Úteis</h3>
+        <ul>
+          <li><a href="index2.html">Home</a></li>
+          <li><a href="index2.html">Sobre</a></li>
+          <li><a href="index2.html">Serviços</a></li>
+          
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Contato</h3>
+        <p>Email: Projeto@depw.com</p>
+        <p>Telefone: (11) 99999-9999</p>
+        <p>Endereço: Av. Eng. Carlos Reinaldo Mendes, 2015 - Além Ponte, Sorocaba - SP, 18013-280</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Por Gabriel Felipe e Paula Sousa</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
